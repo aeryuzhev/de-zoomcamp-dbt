@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-zoomcamp-375618
+    schema: trips_data_all
+
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata
+      - name: fhv_tripdata
